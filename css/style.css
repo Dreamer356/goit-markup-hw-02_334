@@ -10,7 +10,6 @@ h1, h2, h3 {
   margin: 0;
 }
 
-/* --- HEADER --- */
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -69,7 +68,6 @@ header {
   cursor: default;
 }
 
-/* --- HERO --- */
 .hero-section {
   background: #2e2f42;
   color: #fff;
@@ -101,7 +99,25 @@ header {
   background-color: #404BBF; 
 }
 
-/* --- FEATURES (2 секция) --- */
+.features-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-weight: 700;
+  margin-bottom: 72px;
+}
+
+.features-section {
+  /* Можно добавить стили для секции преимуществ, если нужно */
+}
+
+.features-item {
+  /* Можно добавить стили для элементов преимуществ, если нужно */
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -119,37 +135,24 @@ header {
   margin: 0;
 }
 
-/* --- PORTFOLIO (3 секция) --- */
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  color: #434455;
-  background-color: #ffffff;
+.portfolio-section {
+  background-color: #F4F4FD;
 }
 
-.portfolio {
-  background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+.portfolio-list {
+  /* Можно добавить стили для списка портфолио, если нужно */
 }
 
-.portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  margin-bottom: 72px;
+.portfolio-item {
+  background-color: #FFFFFF;
 }
 
 .portfolio-subtitle {
-  font-size: 20px;
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 0;
   margin-bottom: 8px;
 }
 
@@ -157,42 +160,28 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* --- TEAM (4 секция) --- */
-.team-title {
-  font-size: 36px;
-  font-weight: 700;
-  color: #2e2f42;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-}
-
-.team-member h3 {
-  font-weight: 500;
-  color: #2e2f42;
-  margin-bottom: 8px;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.team-member p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
 }
 
-/* --- FOOTER --- */
+.team-section {
+  /* Можно добавить стили для секции команды, если нужно */
+}
+
+.team-list {
+  /* Можно добавить стили для списка команды, если нужно */
+}
+
+.team-member {
+  /* Можно добавить стили для участника команды, если нужно */
+}
+
+.footer-section {
+  background-color: #2e2f42;
+  padding: 40px 0;
+  text-align: center;
+}
+
 .footer-link {
   font-size: 24px;
   font-weight: 700;
