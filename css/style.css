@@ -132,11 +132,7 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  font-weight: 700;  /* Можно оставить, если требуется */
-}
-
-.portfolio-list {
-  /* список, без запрещённых свойств */
+  font-weight: 700;  
 }
 
 .portfolio-item {
