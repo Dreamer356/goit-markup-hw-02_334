@@ -122,7 +122,6 @@ header {
 /* --- PORTFOLIO (3 секция) --- */
 .portfolio-section {
   background-color: #F4F4FD;
-  padding: 120px 0;
 }
 
 .portfolio-title {
@@ -133,26 +132,11 @@ header {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  font-weight: 700;
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  font-weight: 700;  
 }
 
 .portfolio-item {
-  background-color: #ffffff;
-  width: calc((100% - 48px) / 3);
-}
-
-.portfolio-card-text {
-  padding: 32px 16px;
+  background-color: #FFFFFF;
 }
 
 .portfolio-subtitle {
@@ -161,7 +145,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 0 0 8px 0;
+  margin-bottom: 8px;
 }
 
 .portfolio-description {
