@@ -157,12 +157,22 @@ header {
 }
 
 /* --- TEAM (3 секция) --- */
+.team-section {
+  background-color: #F4F4FD; /* Фон секции */
+}
+
 .team-title {
   font-size: 36px;
   font-weight: 700;
   color: #2e2f42;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  line-height: 1.11;         /* Исправлено */
+  text-align: center;        /* Исправлено */
+}
+
+.team-member {
+  background-color: #FFFFFF; /* Фон для пункта списка */
 }
 
 .team-member h3 {
@@ -181,6 +191,7 @@ header {
   color: #434455;
   margin: 0;
 }
+
 
 /* --- FOOTER --- */
 .footer-link {
