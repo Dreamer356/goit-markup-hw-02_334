@@ -121,13 +121,13 @@ header {
 
 /* --- PORTFOLIO (3 секция) --- */
 .portfolio-section {
-  background-color: #F4F4FD;
+  /* background-color: #F4F4FD; */
 }
 
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+  /* line-height: 1.11; */
+  /* text-align: center; */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -136,7 +136,7 @@ header {
 }
 
 .portfolio-item {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
 }
 
 .portfolio-subtitle {
