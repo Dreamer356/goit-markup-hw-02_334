@@ -121,13 +121,13 @@ header {
 
 /* --- PORTFOLIO (3 секция) --- */
 .portfolio-section {
-  background-color: #F4F4FD;
+  background-color: #F4F4FD; /* фон секции */
 }
 
 .portfolio-title {
   font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
+  line-height: 1.11; /* межстрочный интервал */
+  text-align: center; /* выравнивание по центру */
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
@@ -135,8 +135,26 @@ header {
   font-weight: 700;  
 }
 
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px; /* для красивого расположения, если нужно */
+}
+
 .portfolio-item {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF; /* фон карточки */
+  padding: 0;
+  margin: 0;
+  border-radius: 4px; /* не обязательно, но красиво */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04); /* не обязательно */
+  width: 360px; /* чтобы все карточки были одинаковы */
+}
+
+.portfolio-text {
+  padding: 16px;
 }
 
 .portfolio-subtitle {
@@ -155,6 +173,7 @@ header {
   color: #434455;
   margin: 0;
 }
+
 
 /* --- TEAM (4 секция) --- */
 .team-title {
