@@ -69,6 +69,24 @@ header {
   cursor: default;
 }
 
+address,
+.contact-box {
+  font-style: normal;
+}
+
+.contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455; 
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
+
 /* --- HERO --- */
 .hero-section {
   background: #2e2f42;
